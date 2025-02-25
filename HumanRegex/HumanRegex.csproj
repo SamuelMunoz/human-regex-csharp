@@ -12,7 +12,7 @@
         <Description>Human-friendly regular expression builder with English-like syntax. Ported from https://github.com/rajibola/human-regex</Description>
         <PackageProjectUrl>https://github.com/SamuelMunoz/human-regex-csharp</PackageProjectUrl>
         <Authors>Samuel Muñoz</Authors>
-        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
 </Project>
+ 
