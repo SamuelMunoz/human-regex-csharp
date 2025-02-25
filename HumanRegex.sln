@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanRegex", "HumanRegex\HumanRegex.csproj", "{00B025DA-AD89-4ADC-B388-6CEDB6AF4822}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HumanRegex.Tests", "HumanRegex.Tests\HumanRegex.Tests.csproj", "{25C90AB6-CA59-4859-8F9C-DE64EDB6E09F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{00B025DA-AD89-4ADC-B388-6CEDB6AF4822}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{00B025DA-AD89-4ADC-B388-6CEDB6AF4822}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{00B025DA-AD89-4ADC-B388-6CEDB6AF4822}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25C90AB6-CA59-4859-8F9C-DE64EDB6E09F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25C90AB6-CA59-4859-8F9C-DE64EDB6E09F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25C90AB6-CA59-4859-8F9C-DE64EDB6E09F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25C90AB6-CA59-4859-8F9C-DE64EDB6E09F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
