@@ -8,6 +8,11 @@
         <Version>1.0.0</Version>
         <PackageId>HumanRegexBuilder</PackageId>
         <RepositoryType>git</RepositoryType>
+        <RepositoryUrl>https://github.com/SamuelMunoz/human-regex-csharp</RepositoryUrl>
+        <Description>Human-friendly regular expression builder with English-like syntax. Ported from https://github.com/rajibola/human-regex</Description>
+        <PackageProjectUrl>https://github.com/SamuelMunoz/human-regex-csharp</PackageProjectUrl>
+        <Authors>Samuel Muñoz</Authors>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
     </PropertyGroup>
 
 </Project>
