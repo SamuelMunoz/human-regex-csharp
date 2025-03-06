@@ -42,10 +42,13 @@ public partial class HumanRegex
         {
             throw new InvalidOperationException("No quantifier to make lazy");
         }
-
-        var lastPat = _parts[^1];
+#if NETSTANDARD2_0
+        var lastPart = _parts.Last();
+#else
+        var lastPart = _parts[^1];
+#endif
         _parts.RemoveAt(_parts.Count - 1);
-        return Add($"{lastPat}?");
+        return Add($"{lastPart}?");
     }
 
     public HumanRegex Letter() => Add("[a-zA-Z]");
@@ -119,7 +122,11 @@ public partial class HumanRegex
         if (_parts.Count == 0)
             throw new InvalidOperationException("No pattern to repeat");
 
+#if NETSTANDARD2_0
+        var lastPart = _parts.Last();
+#else
         var lastPart = _parts[^1];
+#endif
         _parts.RemoveAt(_parts.Count - 1);
         _parts.Add($"({lastPart}){{{count}}}");
         return this;
